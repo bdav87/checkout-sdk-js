@@ -20,6 +20,7 @@ export interface CustomItem {
     name: string;
     quantity: number;
     sku: string;
+    shippable?: boolean;
 }
 
 export interface GiftCertificateItem {
